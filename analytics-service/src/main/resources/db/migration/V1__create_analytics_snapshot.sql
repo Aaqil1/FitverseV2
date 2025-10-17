@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS analytics_snapshot (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    user_id BIGINT NOT NULL,
+    bmi DOUBLE NOT NULL,
+    calories_delta INT NOT NULL,
+    captured_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

@@ -67,3 +67,4 @@ public class AuthService {
         return repository.findByEmail(email).map(mapper::toResponse);
     }
 }
+

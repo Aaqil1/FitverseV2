@@ -43,3 +43,4 @@ fitverse:
       model: ${FITVERSE_CHAT_MODEL:gpt-4o}
     food:
       model-path: ${FOOD_MODEL_PATH:models/foodvision.pb}
+      

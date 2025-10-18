@@ -44,3 +44,4 @@ public class AuthController {
                 .orElseThrow(InvalidCredentialsException::new);
     }
 }
+

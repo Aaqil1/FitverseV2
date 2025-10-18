@@ -26,7 +26,8 @@ Phase 3 upgrades the FitVerse platform with cross-cutting production capabilitie
 
 ## Development
 
-```bash
+```
+bash
 # run the backend unit tests (skip frontend tooling requirements)
 mvn -pl '!frontend-react' clean test
 ```
